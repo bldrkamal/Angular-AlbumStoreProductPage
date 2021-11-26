@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./product-description.component.css']
 })
 export class ProductDescriptionComponent implements OnInit {
-
+  albuminfo;
   constructor(private _productService:ProductService) { }
 
   ngOnInit() {
